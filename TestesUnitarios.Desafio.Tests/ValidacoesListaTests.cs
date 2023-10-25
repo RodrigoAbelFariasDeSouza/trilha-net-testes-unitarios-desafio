@@ -39,7 +39,7 @@ public class ValidacoesListaTests
     {
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
-        var numeroParaProcurar = 1;
+        var numeroParaProcurar = 10;
 
         // Act
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
